@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>c1d48d1b-08cb-41e9-a6c8-dd0cdae8a0c4</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>select.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>MyPython</Name>
+    <RootNamespace>MyPython</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Chat.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Clock.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Flag.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ForExam.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GPS.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="K-means.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NumberClock.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ColorSpiral.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ConvertTempColor.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CountWords.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Lambda.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DrawColorSnake.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DrawSnack.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="File.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FiveStar.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Function.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MixString.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MyPython.py" />
+    <Compile Include="pi.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Projectile.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Rainbow.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="select.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Shoot.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SmallPT.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Snow.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Spiral.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="statistics.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StudentMis.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SumN.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sun.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Test For.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tree.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Triangle.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>

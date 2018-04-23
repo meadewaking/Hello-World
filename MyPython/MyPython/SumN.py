@@ -1,0 +1,1 @@
+﻿print("1到N的和为%d"%(sum(range(1,int(input("请输入整数N：")) + 1))))
