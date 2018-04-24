@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>ab2bfded-caa0-480a-a575-4588d835c341</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>WebCrawler.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>WebCrawler</Name>
+    <RootNamespace>WebCrawler</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Baidu.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CrawBaiduStocks.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CrowTaobaoPrice.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Explorer.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IP.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="jiji.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="JingDong.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Picture.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="JAV.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SEO.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TestServer.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnivRanking.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WebCrawler.py" />
+    <Compile Include="yield.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
