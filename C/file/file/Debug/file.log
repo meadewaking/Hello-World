@@ -1,0 +1,15 @@
+﻿生成启动时间为 2015/12/20 20:30:28。
+     1>项目“F:\s1\c语言\hello world\file\file\file.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\app\vs\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt file.c
+         file.c
+     1>f:\s1\c语言\hello world\file\file\file.c(6): warning C4047: “=”:“FILE *”与“errno_t”的间接级别不同
+     1>f:\s1\c语言\hello world\file\file\file.c(4): warning C4101: “num”: 未引用的局部变量
+       Link:
+         D:\app\vs\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\s1\c语言\hello world\file\Debug\file.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:\s1\c语言\hello world\file\Debug\file.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\s1\c语言\hello world\file\Debug\file.lib" /MACHINE:X86 Debug\file.obj
+         file.vcxproj -> F:\s1\c语言\hello world\file\Debug\file.exe
+     1>已完成生成项目“F:\s1\c语言\hello world\file\file\file.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:00.60

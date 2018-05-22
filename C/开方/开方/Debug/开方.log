@@ -1,0 +1,4 @@
+﻿  pi.c
+f:\s2\c语言\hello world\开方\开方\pi.c(8): warning C4013: “time”未定义；假设外部返回 int
+  开方.vcxproj -> F:\s2\c语言\hello world\开方\Debug\开方.exe
+  开方.vcxproj -> F:\s2\c语言\hello world\开方\Debug\开方.pdb (Full PDB)

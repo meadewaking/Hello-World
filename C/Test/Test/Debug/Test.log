@@ -1,0 +1,4 @@
+﻿  test.cpp
+f:\s2\c语言\hello world\test\test\test.cpp(186): warning C4715: “radiance”: 不是所有的控件路径都返回值
+  Test.vcxproj -> F:\s2\c语言\hello world\Test\Debug\Test.exe
+  Test.vcxproj -> F:\s2\c语言\hello world\Test\Debug\Test.pdb (Full PDB)

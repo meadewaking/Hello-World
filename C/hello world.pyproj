@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{d4b8f405-7071-4a9c-ba96-5d7c10f3e62c}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile />
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+    <InterpreterVersion />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="MyPython\MixString\MixString.py" />
+    <Compile Include="MyPython\MixString\MyPython.py" />
+    <Compile Include="MyPython\MyPython\Chat.py" />
+    <Compile Include="MyPython\MyPython\Clock.py" />
+    <Compile Include="MyPython\MyPython\ColorSpiral.py" />
+    <Compile Include="MyPython\MyPython\ConvertTempColor.py" />
+    <Compile Include="MyPython\MyPython\CountWords.py" />
+    <Compile Include="MyPython\MyPython\DrawColorSnake.py" />
+    <Compile Include="MyPython\MyPython\DrawSnack.py" />
+    <Compile Include="MyPython\MyPython\File.py" />
+    <Compile Include="MyPython\MyPython\FiveStar.py" />
+    <Compile Include="MyPython\MyPython\Flag.py" />
+    <Compile Include="MyPython\MyPython\Function.py" />
+    <Compile Include="MyPython\MyPython\GPS.py" />
+    <Compile Include="MyPython\MyPython\K-means.py" />
+    <Compile Include="MyPython\MyPython\Lambda.py" />
+    <Compile Include="MyPython\MyPython\MixString.py" />
+    <Compile Include="MyPython\MyPython\MyPython.py" />
+    <Compile Include="MyPython\MyPython\NumberClock.py" />
+    <Compile Include="MyPython\MyPython\pi.py" />
+    <Compile Include="MyPython\MyPython\Projectile.py" />
+    <Compile Include="MyPython\MyPython\Rainbow.py" />
+    <Compile Include="MyPython\MyPython\Shoot.py" />
+    <Compile Include="MyPython\MyPython\SmallPT.py" />
+    <Compile Include="MyPython\MyPython\Snow.py" />
+    <Compile Include="MyPython\MyPython\Spiral.py" />
+    <Compile Include="MyPython\MyPython\StudentMis.py" />
+    <Compile Include="MyPython\MyPython\SumN.py" />
+    <Compile Include="MyPython\MyPython\Sun.py" />
+    <Compile Include="MyPython\MyPython\Test For.py" />
+    <Compile Include="MyPython\MyPython\Tree.py" />
+    <Compile Include="MyPython\MyPython\Triangle.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="MyPython\MixString" />
+    <Folder Include="MyPython\MyPython" />
+  </ItemGroup>
+  <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
+</Project>

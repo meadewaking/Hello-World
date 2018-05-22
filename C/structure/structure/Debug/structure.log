@@ -1,0 +1,4 @@
+﻿  DTMis.c
+f:\s2\c语言\hello world\structure\structure\dtmis.c(35): warning C4013: “gets”未定义；假设外部返回 int
+f:\s2\c语言\hello world\structure\structure\dtmis.c(365): warning C4013: “quick_one_pass”未定义；假设外部返回 int
+  structure.vcxproj -> F:\s2\c语言\hello world\structure\Debug\structure.exe
