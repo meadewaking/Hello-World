@@ -1,0 +1,40 @@
+html,
+body {
+	height: 100%;
+	background-color: #eee;
+}
+
+.h10 {
+	height: 10px;
+}
+
+.background {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.startorder {
+	position: absolute;
+	bottom: 90px;
+	width: 100%;
+	text-align: center;
+}
+
+.startorder span {
+	color: #fff;
+	background-color: #EA533A;
+	padding: 10px;
+	font-size: 18px;
+}
+
+
+/* 悬浮样式 */
+
+.btnhover {
+	background-color: #FB7F56 !important;
+}
+
+.headerhover {
+	background-color: #FB7F56;
+}

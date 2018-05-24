@@ -1,0 +1,118 @@
+{
+  "login.html": {
+    "refer": [
+      "register.html",
+      "index.html"
+    ],
+    "resources": [
+      "img/weixin_iner_icon.png",
+      "img/abc_ic_ab_back_holo_dark.png",
+      "img/m_drawer_icon_home_selected.png",
+      "css/login.css",
+      "img/weibo_iner_icon.png",
+      "img/renren_iner_icon.png",
+      "css/api.css"
+    ]
+  },
+  "welcome.html": {
+    "refer": [
+      "login.html"
+    ],
+    "resources": [
+      "img/welcome.png",
+      "css/common.css",
+      "css/api.css",
+      "css/welcome.css"
+    ]
+  },
+  "index.html": {
+    "resources": [
+      "img/xh8.jpg",
+      "img/xh2.jpg",
+      "js/jquery.easing.1.3.js",
+      "js/jquery.mobile-1.4.5.js",
+      "js/datepicker.js",
+      "img/xh3.jpg",
+      "img/thumbs/gd3.jpg",
+      "css/camera.css",
+      "img/thumbs/gd1.jpg",
+      "img/thumbs/gd4.jpg",
+      "js/jquery-2.1.4.js",
+      "css/index.css",
+      "img/gd2.jpg",
+      "css/jquery.mobile.datepicker.css",
+      "img/xh1.jpg",
+      "js/camera.min.js",
+      "img/gd1.jpg",
+      "img/xh6.jpg",
+      "css/blue/style.css",
+      "js/jquery.tablesorter.js",
+      "img/xh7.jpg",
+      "img/thumbs/gd2.jpg",
+      "css/jquery.mobile-1.4.5.css",
+      "img/gd3.jpg",
+      "js/jquery.mobile.datepicker.js",
+      "img/thumbs/gd5.jpg",
+      "img/xh4.jpg",
+      "img/xh5.jpg",
+      "pingjia.html",
+      "img/gd5.jpg",
+      "img/xh9.jpg",
+      "img/xh11.jpg",
+      "img/xh10.jpg",
+      "img/gd4.jpg"
+    ],
+    "refer": []
+  },
+  "comment.html": {
+    "resources": [
+      "img/abc_ic_ab_back_holo_dark.png",
+      "img/m_drawer_icon_home_selected.png",
+      "css/common.css",
+      "css/api.css"
+    ],
+    "refer": []
+  },
+  "pingjia.html": {
+    "resources": [
+      "img/gd5.jpg",
+      "img/gd4.jpg",
+      "img/gd3.jpg",
+      "fonts/fonts/fontawesome-webfont.ttf",
+      "fonts/css/font-awesome.min.css",
+      "css/api.css"
+    ],
+    "refer": []
+  },
+  "register.html": {
+    "resources": [
+      "js/jquery.mobile.datepicker.js",
+      "js/jquery-2.1.4.js",
+      "css/index.css",
+      "css/blue/style.css",
+      "js/jquery.easing.1.3.js",
+      "js/jquery.mobile-1.4.5.js",
+      "js/datepicker.js",
+      "js/jquery.tablesorter.js",
+      "css/jquery.mobile.datepicker.css",
+      "css/jquery.mobile-1.4.5.css",
+      "js/camera.min.js",
+      "css/camera.css",
+      "login.html"
+    ],
+    "refer": []
+  },
+  "vip.html": {
+    "resources": [
+      "img/weixin_iner_icon.png",
+      "img/abc_ic_ab_back_holo_dark.png",
+      "img/vip1.png",
+      "img/m_drawer_icon_home_selected.png",
+      "css/login.css",
+      "img/weibo_iner_icon.png",
+      "css/api.css",
+      "img/renren_iner_icon.png"
+    ],
+    "refer": []
+  }
+}

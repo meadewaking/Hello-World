@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <script type="text/javascript" src="js/jquery-2.1.4.js" ></script>
+    <script type="text/javascript" src="js/jquery.mobile-1.4.5.js" ></script>
+    <script type="text/javascript" src="js/index.js" ></script>
+
+    <title></title>
+    <script type="text/javascript">
+    	
+   		document.addEventListener('plusready', function(){
+   			//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。"
+   			
+   		});
+   		
+    </script>
+</head>
+<body>
+	<div id="a" data-role = "page">
+		<div class="header" data-role = "header" id="header" data-add-back-btn = "true" data-add-back-btn-text = "返回">
+			第一页
+		</div>
+		<div class="content" data-role = "content">
+			<div data-role = "navbar">
+				<ul>
+					<li><a href="#" class="ui-btn-active">第一导航</a></li>
+					<li><a href="#">第二导航</a></li>
+					<li><a href="#">第三导航</a></li>
+				</ul>
+			</div>
+			<input id="name" type="text" placeholder="用户名" />
+			<input id="password" type="password" placeholder="密码" />
+			<legend>我喜欢的水果</legend>
+			<label for="apple">苹果</label>
+			<input type="checkbox" id="apple" />
+			<label for="banana">香蕉</label>
+			<input type="checkbox" id="banana" />
+			<label for="watermelon">西瓜</label>
+			<input type="checkbox" id="watermelon" />
+			<legend>是否同意</legend>
+			<label for="agree">同意</label>
+			<input type="radio" id="agree" name="choice"/>
+			<label for="disagree">不同意</label>
+			<input type="radio" id="disagree" name="choice"/>
+			<input type="range" min="1" max="5" value="5" step="0.01" id="range" data-highlight = "true"/>
+			<div class="alpha"></div>
+			<div class="ui-grid-a">
+				<div class="ui-block-a">
+					<h3>1</h3>
+				</div>
+				<div class="ui-block-b">
+					<h3>2</h3>
+				</div>
+			</div>
+			<div data-role = "collapsible">
+				<h2>折叠标题</h2>
+				<p>
+					111111111
+				</p>
+			</div>
+			<a href="course.html" data-rel = "dialog" data-prefetch = "true">课程</a>
+		</div>
+		<div class="footer" data-role = "footer">
+			页脚
+		</div>
+	</div>
+</body>
+</html>

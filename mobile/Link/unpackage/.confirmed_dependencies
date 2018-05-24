@@ -1,0 +1,11 @@
+{
+  "msgapp/templates/index.html": {
+    "resources": [
+      "msgapp/templates/css/index.css",
+      "msgapp/templates/js/jquery-2.1.4.js",
+      "msgapp/templates/js/index.js",
+      "msgapp/templates/js/jquery.mobile-1.4.5.js",
+      "msgapp/templates/css/jquery.mobile-1.4.5.css"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "index.html": {
+    "resources": [
+      "css/jquery.mobile.external-png-1.4.5.css",
+      "css/jquery.mobile-1.4.5.min.css",
+      "css/jquery.mobile.structure-1.4.5.min.css",
+      "js/jquery.mobile-1.4.5.js",
+      "css/jquery.mobile.inline-png-1.4.5.css",
+      "css/jquery.mobile.inline-png-1.4.5.min.css",
+      "css/jquery.mobile.inline-svg-1.4.5.css",
+      "css/jquery.mobile.theme-1.4.5.min.css",
+      "css/jquery.mobile-1.4.5.css",
+      "css/jquery.mobile.icons-1.4.5.css",
+      "js/jquery-2.1.4.js",
+      "css/jquery.mobile.external-png-1.4.5.min.css",
+      "css/jquery.mobile.structure-1.4.5.css",
+      "js/jquery.mobile-1.4.5.min.js",
+      "css/jquery.mobile.icons-1.4.5.min.css",
+      "css/jquery.mobile.inline-svg-1.4.5.min.css",
+      "css/jquery.mobile.theme-1.4.5.css",
+      "css/index.css",
+      "js/index.js",
+      "course.html"
+    ]
+  }
+}
