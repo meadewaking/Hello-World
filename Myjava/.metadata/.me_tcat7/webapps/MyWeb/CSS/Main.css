@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+
+.bt {
+	font-size: 11px;
+}
+
+.bc {
+	background-color: #eeeeee;
+	onmouseover
+	="style.backgroundColor='#cccccc'";
+	onmouseleave
+	="style.backgroundColor='#eeeeee'";
+}

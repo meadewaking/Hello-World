@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>test</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+	<script type="text/javascript">
+		function checkinput(){
+			var txtLogInName = document.getElementById("txtLogInName");
+			var tdLogInName = document.getElementById("tdLogInName");
+			if (txtLogInName.value.length == 0)
+				tdLogInName.innerText = "登录名不能为空。";
+			else if (txtLogInName.value.length < 5)
+				tdLogInName.innerText = "登录名至少为5个字符。";
+			else 
+				tdLogInName.innerText = "";
+				
+			var txtPassWord = document.getElementById("txtPassWord");
+			var tdPassWord = document.getElementById("tdPassWord");
+			if (txtPassWord.value.length == 0)
+				tdPassWord.innerText = "密码不能为空。";
+			else if (txtPassWord.value.length < 5)
+				tdPassWord.innerText = "密码至少为5个字符。";
+			else 
+				tdPassWord.innerText = "";
+		}
+	</script>
+
+  </head>
+  
+  <body>
+    <table border="1">
+    	<tr>
+    		<td>用户名</td>
+    		<td><input type="text" name="text" id="txtLogInName"></td>
+    		<td id="tdLogInName" style="color:red"></td>	
+    	</tr>
+    	<tr>
+    		<td>密码</td>
+    		<td><input type="password" name="text" id="txtPassWord"></td>
+    		<td id="tdPassWord" style="color:red"></td>
+    	</tr>
+    	<tr>
+    		<td></td>
+    		<td><input type="button" value="登录" onclick="checkinput()">
+    			<input type="button" value="取消">
+    			</td>
+    		<td></td>
+    	</tr>    	
+    </table>
+  </body>
+</html>

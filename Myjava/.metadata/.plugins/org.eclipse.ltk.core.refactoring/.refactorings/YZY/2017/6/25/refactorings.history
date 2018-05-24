@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;cn.sycu.meade.entity.MeaasgeBean&apos; to &apos;MessageBean&apos;&#x0D;&#x0A;- Original project: &apos;YZY&apos;&#x0D;&#x0A;- Original element: &apos;cn.sycu.meade.entity.MeaasgeBean&apos;&#x0D;&#x0A;- Renamed element: &apos;cn.sycu.meade.entity.MessageBean&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MeaasgeBean&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;cn.sycu.meade.entity{MeaasgeBean.java[MeaasgeBean" matchStrategy="1" name="MessageBean" qualified="false" references="true" similarDeclarations="false" stamp="1498099786983" textual="false" version="1.0"/>
+</session>

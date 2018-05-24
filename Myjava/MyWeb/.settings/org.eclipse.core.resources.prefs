@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+encoding//WebRoot/index.jsp=UTF-8
+encoding//src/cn/sycu/meade/dao/LoginDao.java=UTF-8
+encoding//src/cn/sycu/meade/dao/LoginLogDao.java=UTF-8
+encoding//src/cn/sycu/meade/dao/LoginTypeDao.java=UTF-8
+encoding//src/cn/sycu/meade/servlet/LoginServlet.java=UTF-8
+encoding//src/cn/sycu/meade/servlet/ManageDepartmentsServlet.java=UTF-8

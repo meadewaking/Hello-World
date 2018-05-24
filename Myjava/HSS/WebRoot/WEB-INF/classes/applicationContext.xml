@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context-2.5.xsd
+           http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+           http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd">
+
+	<!-- 数据库的连接信息，使用的是数据源的方式jdbc/dbcp/c3p0 -->
+	<!-- 配置数据源，将数据源交给spring容器管理 -->
+	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
+		destroy-method="close">
+		<property name="driverClass" value="com.mysql.jdbc.Driver" />
+		<property name="jdbcUrl" value="jdbc:mysql:///ssh" />
+		<property name="user" value="root" />
+		<property name="password" value="" />
+		<!--初始化时获取的连接数，取值应在minPoolSize与maxPoolSize之间。Default: 3 -->
+		<property name="initialPoolSize" value="1" />
+		<!--连接池中保留的最小连接数。 -->
+		<property name="minPoolSize" value="1" />
+		<!--连接池中保留的最大连接数。Default: 15 -->
+		<property name="maxPoolSize" value="300" />
+		<!--最大空闲时间,60秒内未使用则连接被丢弃。若为0则永不丢弃。Default: 0 -->
+		<property name="maxIdleTime" value="60" />
+		<!--当连接池中的连接耗尽的时候c3p0一次同时获取的连接数。Default: 3 -->
+		<property name="acquireIncrement" value="5" />
+		<!--每60秒检查所有连接池中的空闲连接。Default: 0 -->
+		<property name="idleConnectionTestPeriod" value="60" />
+	</bean>
+	
+	<!-- 注解扫描包 -->
+	<context:component-scan base-package="com.mstf" />
+	
+	<!-- 配置sessionFactory 工厂 -->
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<!-- 引入hibernate的主配置文件 -->
+		<property name="configLocation" value="classpath:hibernate.cfg.xml"></property>
+	</bean>
+	
+	<!-- 配置事物 -->
+	<!-- 定义一个事物管理器 -->
+	<bean id="transactionManager"
+		class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+
+	<!-- 定义一个切面来进行事物管理 -->
+	<tx:advice id="personTransaction" transaction-manager="transactionManager">
+		<tx:attributes>
+			<tx:method name="get*" read-only="true" propagation="NOT_SUPPORTED" />
+			<tx:method name="*" />
+		</tx:attributes>
+	</tx:advice>
+	<aop:config>
+		<aop:pointcut expression="execution(* com.mstf.service..*.*(..))"
+			id="personPontCut" />
+		<aop:advisor advice-ref="personTransaction" pointcut-ref="personPontCut" />
+	</aop:config>
+	
+	<!-- 将业务层交给spring容器来管理 -->
+ 	<bean id="infoServiceImpl" class="com.mstf.service.impl.InfoServiceImpl">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+
+	<!--将action交给spring容器来管理 -->
+	<bean id="infoAction" class="com.mstf.action.InfoAction">
+		<property name="infoService" ref="infoServiceImpl" />
+	</bean>
+	
+	<!-- 将业务层交给spring容器来管理 -->
+ 	<bean id="userServiceImpl" class="com.mstf.service.impl.UserServiceImpl">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+
+	<!--将action交给spring容器来管理 -->
+	<bean id="userAction" class="com.mstf.action.UserAction">
+		<property name="userService" ref="userServiceImpl" />
+	</bean>
+
+</beans>

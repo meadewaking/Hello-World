@@ -1,0 +1,30 @@
+
+label.error {
+  /*width:auto;
+  height:22px;
+  padding:5px 20px 0 20px;
+  background:#fdedeb;
+  border:1px solid #d83f3f;
+  color:#d83f3f;
+  font-size:12px;
+  margin-left: 5px;*/
+  
+  margin-left:5px;
+  width:auto;
+  height:auto;
+  padding:3px 5px 0 5px;
+  background:#fdedeb;
+  border:1px solid #d83f3f;
+  color:#d83f3f;
+  font-size:12px;
+  
+}
+label.checked {
+  width:0px;
+  height:0px;
+  padding:0;
+  background:none;
+  border:0px;
+  margin-left: -3px;
+}
+/**********tableend*******************************************************************************/

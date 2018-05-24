@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name></display-name>
+  
+  <servlet>
+    <servlet-name>Verify</servlet-name>
+    <servlet-class>com.his.action.Verify</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DrugAction</servlet-name>
+    <servlet-class>com.his.action.DrugAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RoleAction</servlet-name>
+    <servlet-class>com.his.action.RoleAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ResourcesAction</servlet-name>
+    <servlet-class>com.his.action.ResourcesAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DoctorAction</servlet-name>
+    <servlet-class>com.his.action.DoctorAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserAction</servlet-name>
+    <servlet-class>com.his.action.UserAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RegisterAction</servlet-name>
+    <servlet-class>com.his.action.RegisterAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FeeAction</servlet-name>
+    <servlet-class>com.his.action.FeeAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DispAction</servlet-name>
+    <servlet-class>com.his.action.DispAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HospitalAction</servlet-name>
+    <servlet-class>com.his.action.HospitalAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AccountAction</servlet-name>
+    <servlet-class>com.his.action.AccountAction</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Verify</servlet-name>
+    <url-pattern>/Verify</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DrugAction</servlet-name>
+    <url-pattern>/DrugAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RoleAction</servlet-name>
+    <url-pattern>/RoleAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResourcesAction</servlet-name>
+    <url-pattern>/ResourcesAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DoctorAction</servlet-name>
+    <url-pattern>/DoctorAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserAction</servlet-name>
+    <url-pattern>/UserAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterAction</servlet-name>
+    <url-pattern>/RegisterAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FeeAction</servlet-name>
+    <url-pattern>/FeeAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DispAction</servlet-name>
+    <url-pattern>/DispAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HospitalAction</servlet-name>
+    <url-pattern>/HospitalAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AccountAction</servlet-name>
+    <url-pattern>/AccountAction</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

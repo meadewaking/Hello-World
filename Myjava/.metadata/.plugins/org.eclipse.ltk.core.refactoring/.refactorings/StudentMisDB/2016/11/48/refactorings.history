@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;net.sycu.meade.dao.Course&apos; to &apos;CourseDao&apos;&#x0D;&#x0A;- Original project: &apos;StudentMisDB&apos;&#x0D;&#x0A;- Original element: &apos;net.sycu.meade.dao.Course&apos;&#x0D;&#x0A;- Renamed element: &apos;net.sycu.meade.dao.CourseDao&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Course&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;net.sycu.meade.dao{Course.java[Course" matchStrategy="1" name="CourseDao" qualified="false" references="true" similarDeclarations="false" stamp="1479649285635" textual="false" version="1.0"/>
+</session>

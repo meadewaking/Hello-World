@@ -1,0 +1,16 @@
+十一月 22, 2017 10:01:30 下午 com.genuitec.pulse.client.deliverypackage.runtime.internal.Activator initializeLoggers
+信息: Package starting up at Wed Nov 22 22:01:30 CST 2017
+十一月 22, 2017 10:01:32 下午 com.genuitec.pulse.client.deliverypackage.runtime.UpdatesService checkForWorkspaceUpdates
+信息: Latest version of package has already been enabled in the workspace; check finished in 0ms
+十一月 22, 2017 10:08:42 下午 org.apache.http.impl.client.DefaultRequestDirector tryExecute
+信息: I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:55158: Connection reset by peer: socket write error
+十一月 22, 2017 10:08:42 下午 org.apache.http.impl.client.DefaultRequestDirector tryExecute
+信息: Retrying request to {}->http://127.0.0.1:55158
+十一月 22, 2017 10:11:08 下午 org.apache.http.impl.client.DefaultRequestDirector tryExecute
+信息: I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:55165: Connection reset by peer: socket write error
+十一月 22, 2017 10:11:08 下午 org.apache.http.impl.client.DefaultRequestDirector tryExecute
+信息: Retrying request to {}->http://127.0.0.1:55165
+十一月 22, 2017 10:13:11 下午 org.apache.http.impl.client.DefaultRequestDirector tryExecute
+信息: I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:55313: Connection reset by peer: socket write error
+十一月 22, 2017 10:13:11 下午 org.apache.http.impl.client.DefaultRequestDirector tryExecute
+信息: Retrying request to {}->http://127.0.0.1:55313

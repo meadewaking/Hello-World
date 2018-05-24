@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="btnCancelSave" key="selection"/>
+		<item value="true" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="btnCancelSave"/>
+			<item value="hidDepartmentId"/>
+			<item value="ModifyDepartment"/>
+			<item value="message"/>
+			<item value="部门信息"/>
+			<item value="get"/>
+			<item value="ems.zdy"/>
+			<item value="Message"/>
+		</list>
+		<list key="replacehistory">
+			<item value="note"/>
+			<item value="个人信息"/>
+			<item value="meade"/>
+			<item value="Note"/>
+			<item value="YZY"/>
+			<item value="messages"/>
+			<item value="loginLogs"/>
+			<item value="modifyPasswordLogs"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="273" key="DIALOG_WIDTH"/>
+		<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
+		<item value="400" key="DIALOG_HEIGHT"/>
+		<item value="1164" key="DIALOG_X_ORIGIN"/>
+		<item value="606" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

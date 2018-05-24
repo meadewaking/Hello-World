@@ -1,0 +1,42 @@
+1. 作业总结
+（1）按姓名进行比较应该是Person类的功能，Person类应该实现Comparable<Person>接口：
+	@Override
+	public int compareTo(Person o) {
+		return this.getName().compareTo(o.getName());
+	}
+（2）这样会造成派生类Student类已经实现的Comparable<Student>接口的冲突，因此Student类不应在实现该接口：
+public class Student extends Person { // implements Comparable<Student> {
+（3）Student类希望能够按学号进行比较，需要定义StudentNumberComparator类，实现Comparator<Student>接口，完成按学号进行比较：
+public class StudentNumberComparator implements Comparator<Student> {
+	@Override
+	public int compare(Student o1, Student o2) {
+		return o1.getNumber().compareTo(o2.getNumber());
+	}
+}
+（4）需要修改Clazz中的原排序代码；
+	public void sortByName() {
+		Collections.sort(students);
+	}
+	
+	public void sortByNumber() {
+		Collections.sort(students, new StudentNumberComparator());
+	}
+	
+	public void sortByScore() {
+		Collections.sort(students, new StudentScoreComparator());
+		Collections.reverse(students);
+	}
+2. 输入输出和文件
+（1）面向对象程序设计中，输入输出功能用流(Stream)对象实现；
+（2）Stream->Buffer->Reader或Writer；
+（3）读写文件时可以读写字符流或字节流即文本读写和二进制读写；
+（4）读写文件时要记得关闭与外围设备相关的对象；
+（5）.close()方法通常在finally{}块中调用。
+
+作业：
+1. 分组作业：讨论读取文件功能，并实现Clazz.load()方法；
+
+
+
+
+

@@ -1,0 +1,6 @@
+JDK£ºJava Development Kit
+
+JRE£ºJava Runtime Environment
+
+JVM£ºJava Virtual Machine
+

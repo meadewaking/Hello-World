@@ -1,0 +1,13 @@
+1. 集合
+（1）集合有两个重要接口List和Set，Set是无需集合，集合中的元素没有序号，List是有序集合，集合中每个元素均有序号，且序号从0开始；
+（2）常用集合ArrayList和LinkedList，其中ArrayList可以理解为可变长度的数组，相当于数据结构中的“顺序表”；LinkedList相当于数据结构中的“链表”；
+（3）ArrayList.add(),get(),remove()；
+2. 泛型
+（1）泛型机制是将数据类型参数化；
+（2）泛型使用<>表示；
+
+作业：
+1. 个人作业：完善Student类的input()方法，输出总分平均分。
+2. 个人作业：新建business包，并在其中创建Clazz类，将学生信息管理功能都封装在该类中。
+3. 分组作业：研究Comparable<T>接口和Comparator<T>接口对实现排序功能的作用。
+

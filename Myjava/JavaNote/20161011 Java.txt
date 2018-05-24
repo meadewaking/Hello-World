@@ -1,0 +1,15 @@
+1. 系统菜单设计
+（1）菜单属于显式问题，称为用户接口（User Interface），简称UI，因此菜单类应在UI包中进行管理；
+（）
+2. Java的数据类型
+（1）Java语言中，数据类型分为基本数据类型和引用数据类型；
+（2）基本数据类型包括但不限于int, long, short, float, double, char, boolean等；
+（3）引用数据类型通常可认为是类类型，包括但不限于String, 数组等凡是能够引出对象的；
+（4）所有基本数据类型都有对应的引用数据类型，例如：int对应Integer类，同理float对应Float类...
+3. static成员是类的成员，可以不通过对象而通过类名直接调用；
+4. 集合
+
+作业：
+1. 个人作业：完成Inputer类中的inputFloat()、inputDouble()、inputChar()、inputBoolean()、inputString()等方法；
+2. 分组作业：研究ArrayList类的用法和用途。
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.mstf.bean">
+	<!-- 配置bean与数据库表的映射关系 -->
+	<class name="Info" table="info">
+		<!-- 设置主键 -->
+		<id name="id" column="id">
+			<generator class="native" />
+		</id>
+		<!-- 其他属性 -->
+		<property name="name" />
+		<property name="age" />
+		<property name="address" />
+	</class>
+	
+	<class name="User" table="user">
+		<id name="user_id" column="user_id">
+			<!-- 自动增长策略 -->
+			<generator class="increment" />
+		</id>
+		<property name="username" column="username"/>
+		<property name="password" column="password"/>
+		<property name="age" column="age"/>
+		<property name="priority" column="priority"/>
+	</class>
+	
+</hibernate-mapping>

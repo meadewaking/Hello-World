@@ -1,0 +1,17 @@
+[public|private|protected|默认] 数据类型 变量名称
+
+
+类名称 实例名称 = new 类名称（）
+Test 	test	= new Test（）；
+Test 	test2	= new Test（5）；
+Test 	test3	= new Test（“abc”）；
+
+
+
+构造方法：
+1、构造方法名称与其所在类的名称完全一致
+2、
+
+4、如果user显示声明构造方法，系统不再生成构造方法
+
+参数的数据类型不同，实参向形参传值只能一一对应，任何表达式与字符串连接得到的只能是字符串
